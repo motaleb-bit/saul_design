@@ -153,112 +153,118 @@ gap: 48px;
 
 /* <!-- //about Me part start here// --> */
 
-#aboutMePart{
-    background:#222831;
-    padding-top: 230px;
-    padding-bottom: 69px;
-}
+        #aboutMePart{
+        background:#222831;
+        padding-top: 230px;
+        padding-bottom: 69px;
+    
+        }
 
-.aboutMe{
-    display: flex;
-    background: #222831;  
-    gap: 330px;
-   
-}
+        .aboutMe{
+        display: flex;
+        background: #222831;  
+        gap: 330px;
+      
+        }
 
-.aboutMeContent{
-    position: relative;
-    margin-top: 50px;
-}
+        .border{
+        border: 1px solid rgba(255, 255, 255, 0.059);
+        margin-top:80px;
+        }
 
-.iconOne { 
-    margin-top:-115px;
-    margin-left:-10px;
-    position: absolute;
-}
+        .aboutMeContent{
+        position: relative;
+        margin-top: 50px;
+        }
 
-.iconTwo {
-    margin-top:-16px;
-    margin-left:353px; 
-    position:absolute;
-}
+        .iconOne { 
+        margin-top:-115px;
+        margin-left:-10px;
+        position: absolute;
+        }
 
-.iconThree {
-    margin-top:375px;
-    margin-left: 174px;
-    position: absolute;
-}
+        .iconTwo {
+        margin-top:-16px;
+        margin-left:353px; 
+        position:absolute;
+        }
 
-.aboutMeContent h2 {
-    width: 322px;
-    height: 96px;
-    font-family:"Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: auto;
-    color:#EEEEEE;
-}
+        .iconThree {
+        margin-top:375px;
+        margin-left: 174px;
+        position: absolute;
+        }
 
-
-.aboutMeContent h2 span {
-    font-family:"Poppins", sans-serif;
-    font-weight: mixed;
-    font-size: 64px;
-    line-height: auto;
-    color:#00ADB5;
-}
+        .aboutMeContent h2 {
+        width: 322px;
+        height: 96px;
+        font-family:"Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: auto;
+        color:#EEEEEE;
+        }
 
 
-.aboutMeContent p {
-    font-family:"Poppins", sans-serif;
-    font-weight: mixed;
-    font-size: 18px;
-    line-height: auto;
-    color:#EEEEEE;
-    opacity: 100%;
-    width: 389px;
-    height: 189px;
-    }
+        .aboutMeContent h2 span {
+        font-family:"Poppins", sans-serif;
+        font-weight: mixed;
+        font-size: 64px;
+        line-height: auto;
+        color:#00ADB5;
+        }
+
+
+        .aboutMeContent p {
+        font-family:"Poppins", sans-serif;
+        font-weight: mixed;
+        font-size: 18px;
+        line-height: auto;
+        color:#EEEEEE;
+        opacity: 100%;
+        width: 389px;
+        height: 189px;
+        }
 
    /* <!-- //about Me part end here// --> */
    /* //project page css start here// */
 
-    #projectPagePart{
+        #projectPagePart{
         padding-top: 268px;
         padding-bottom: 367px;
         background-image:url(../images/project_page.png);
-    }
+        }
 
-    .projectPageContent h2 {
-    width: 540px;
-    height: 96px;
-    font-family:"Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: auto;
-    color:#EEEEEE;
-    }
+        .projectPageContent h2 {
+        width: 540px;
+        height: 96px;
+        font-family:"Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: auto;
+        color:#EEEEEE;
+        }
 
-    .projectPageContent h2 span {
-    font-family:"Poppins", sans-serif;
-    font-weight: mixed;
-    font-size: 64px;
-    line-height: auto;
-    color:#00ADB5;
-    }
+        projectPageContent h2 span {
+        font-family:"Poppins", sans-serif;
+        font-weight: mixed;
+        font-size: 64px;
+        line-height: auto;
+        color:#00ADB5;
+        }
 
-    .projectPageBtn{
+        .projectPageBtn{
         display: flex;
         gap: 16px;
-         margin-top: 48px;
-    }
+        margin-top: 48px;
+        }
 
-    .projectPageBtn button {
+        .projectPageBtn button {
         background:none;
         border: none;   
-    }
+        }
 
-    .projectPageBtn button a{
+        .projectPageBtn button a{
         background: rgba(0, 0, 0, 0.273);
         padding:10px 32px;
         font-family:poppins,sans-serif;
@@ -267,45 +273,166 @@ gap: 48px;
         border-radius: 24px;
         color: #EEEEEE;
         transition: all linear 0.3s;
-    }
+        }
 
-    .projectPageBtn button a:hover{
+        .projectPageBtn button a:hover{
         background:#00ADB5;
         transition: 0.3s;
-    }
+        }
 
-    .projectCardPart {
+        .projectCardPart {
         display: flex;
         justify-content: space-between;
         align-items: center;
         width:368px;
         height: 280px; 
         border-radius: 16px; 
-        gap: 48px;
+        gap: 150px;
         margin-top: 48px; 
-      
-    }
+        transition: all linear 0.3s;
+        }
     
-    .cardOne{
+       .projectCardPart .cardOne:hover {
+        background: hsla(184, 27%, 53%, 0.501);
+        transition: 0.3s;
+        }
+
+       .projectCardPart .cardTwo:hover {
+        background: hsla(184, 27%, 53%, 0.501);
+        transition: 0.3s;
+        }
+
+        .projectCardPart .cardThree:hover {
+        background: hsla(184, 27%, 53%, 0.501);
+        transition: 0.3s;
+        }
+    
+        .cardOne{
         padding: 61px 52px;
         background: lch(0% 0 0 / 0.188);
-        border-radius: 16px;
-    }
+        border-radius: 16px;  
+        width:368px;
+        height:280px
+        }
 
-    .cardTwo{
+        .cardTwo{
         padding: 61px 0px;
         background: lch(0% 0 0 / 0.188);
         border-radius: 16px;
-         width:368px;
+        width:368px;
         height:280px; 
-    }
+         }
 
-    .cardThree{
+        .cardThree{
         padding:61px 0px;
         background: lch(0% 0 0 / 0.188);
         border-radius: 16px;
         width:368px;
-        height: 280px; 
+        height: 280px;   
     } 
-
    /* //project page css end here// */
+  /* <!-- //got project start here// --> */
+        #gotProject{
+        padding: 258px 0px;
+        background: #222831;
+        }
+        .gotProjectFlex{
+        display: flex;
+        gap: 150px;
+        }
+
+        .gotProjectFlex h2{
+        width: 498px;
+        font-family:"Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 64px;
+        line-height:80px;
+        color:#EEEEEE;
+        }
+
+        .gotProjectFlex h2 span{
+        color:#00ADB5;
+        }
+
+        .gotProjectLeft img{
+        margin-left:206px;
+        }
+
+        .gotProjectRight label{
+        color: #EEEEEE;  
+        }
+
+        .gotProjectRight button{
+        padding: 10px 32px;
+        border-radius: 24px;
+        background: #00ADB5;
+        color: #EEEEEE;
+        width: 232px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 24px;
+        border: none;
+        transition: all linear 0.03s;
+
+        }
+
+        .gotProjectRight button:hover {
+        background: #031a26;
+
+        }
+
+  /* <!-- //got project end here// --> */
+
+  /* //footer part start here// */
+        #footerPart{
+            background:#222831;
+            padding: 100px 482px;
+        }
+
+        .footerLeft ul li {
+            display: flex;
+            gap: 48px;
+            width: 475px;
+            justify-content: space-between;
+            margin-left: 483px;
+        }
+
+        .footerLeft ul li a {
+        font-family:"Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color:#EEEEEE;
+        }
+
+        .icons ul li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px; 
+        width: 264px;
+        margin-left: 588px;
+        
+
+        }
+
+        .icons ul li a {
+        margin-top: 38px;
+        }
+
+        .icons ul li a:hover{
+            background: #222831;
+        }
+
+        .footerRight{
+        width: 289px;
+        font-family:"Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color:#EEEEEE;
+        margin-top: 277px;
+        margin-left: 1055px;
+        }
+  /* //footer part end here// */
