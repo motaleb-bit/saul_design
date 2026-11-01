@@ -341,6 +341,28 @@ gap: 48px;
         gap: 150px;
         }
 
+        .gotprojectImg{
+            position:relative;
+        }
+        .imgOne img {
+            position: absolute;
+            top: -200px;
+            left: 820px;
+        }
+
+        .imgTwo img {
+            position: absolute;
+            top: 248px;
+            left: 160px;
+        }
+
+         .imgThree img {
+            position: absolute;
+            top: 590px;
+            left: 1194px;
+        }
+
+
         .gotProjectFlex h2{
         width: 498px;
         font-family:"Poppins", sans-serif;
@@ -431,7 +453,7 @@ gap: 48px;
         font-family:"Poppins", sans-serif;
         font-weight: 400;
         font-size: 18px;
-        color:#EEEEEE;
+        color:#eeeeee6f;
         margin-top: 277px;
         margin-left: 1055px;
         }
