@@ -1,0 +1,311 @@
+/* //common css start here //  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;  
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+  
+}
+/* //common css end here //  */
+/* //header part css start here// */
+#headerPart {
+    padding: 30px 0;
+    background:#222831;
+    border: 1px solid rgba(255, 255, 255, 0.137);   
+}
+
+.menubar{
+display: flex;
+margin: 0 auto;
+align-items: center;
+justify-content: space-between;
+}
+
+.menu ul {
+display: flex;
+gap: 48px;
+}
+
+.menu ul li a{
+    font-family:"Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#EEEEEE;
+    transition: all linear 0.3s;
+}
+
+.menu ul li a:hover{
+    color: #00ADB5;
+
+
+}
+/* //header part css end here// */
+/* //banner part start here// */
+#bannerPart{
+    background: #222831;
+    position: relative;
+}
+
+.banner {
+    width: 1320px;
+    display: flex;
+    background: #222831;
+    gap: 155px;   
+}
+
+.bannerContent{
+    position: relative;
+}
+
+.bannerContent h1{
+    width: 586px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    color:#EEEEEE;
+    margin-top: 217px;
+    margin-left: 87px;
+    
+}
+
+.bannerContent h1 span{
+    width: 586px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 96px;
+    color:#00ADB5;
+}
+.bannerBtn{
+    display: flex; 
+    gap: 24px;
+    margin-top: 48px;  
+    margin-left: 87px;
+    
+}
+.btn{
+    padding: 32px 10px;
+    width: 136px;
+    height: 47px;
+    border-radius: 24px;
+    background:#00ADB5;
+    outline: none;
+    border: none;
+    color: #EEEEEE;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all linear 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+    background:#031a26;
+    transition: 0.3s;
+}
+
+.btnn{
+    padding: 32px 10px;
+    width: 223px;
+    height: 47px;
+    color: #EEEEEE;
+    border-radius: 24px;
+    background:#00ADB5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all linear 0.3s;
+    
+}
+
+.btnn:hover{
+    background:#031a26; 
+    transition: 0.3s;
+}
+
+.bannerBtn button i{
+    margin-left: 6px;
+}
+
+.lefticon{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -10px;
+}
+/* //banner part end here// */
+
+/* <!-- //about Me part start here// --> */
+
+#aboutMePart{
+    background:#222831;
+    padding-top: 230px;
+    padding-bottom: 69px;
+}
+
+.aboutMe{
+    display: flex;
+    background: #222831;  
+    gap: 330px;
+   
+}
+
+.aboutMeContent{
+    position: relative;
+    margin-top: 50px;
+}
+
+.iconOne { 
+    margin-top:-115px;
+    margin-left:-10px;
+    position: absolute;
+}
+
+.iconTwo {
+    margin-top:-16px;
+    margin-left:353px; 
+    position:absolute;
+}
+
+.iconThree {
+    margin-top:375px;
+    margin-left: 174px;
+    position: absolute;
+}
+
+.aboutMeContent h2 {
+    width: 322px;
+    height: 96px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: auto;
+    color:#EEEEEE;
+}
+
+
+.aboutMeContent h2 span {
+    font-family:"Poppins", sans-serif;
+    font-weight: mixed;
+    font-size: 64px;
+    line-height: auto;
+    color:#00ADB5;
+}
+
+
+.aboutMeContent p {
+    font-family:"Poppins", sans-serif;
+    font-weight: mixed;
+    font-size: 18px;
+    line-height: auto;
+    color:#EEEEEE;
+    opacity: 100%;
+    width: 389px;
+    height: 189px;
+    }
+
+   /* <!-- //about Me part end here// --> */
+   /* //project page css start here// */
+
+    #projectPagePart{
+        padding-top: 268px;
+        padding-bottom: 367px;
+        background-image:url(../images/project_page.png);
+    }
+
+    .projectPageContent h2 {
+    width: 540px;
+    height: 96px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: auto;
+    color:#EEEEEE;
+    }
+
+    .projectPageContent h2 span {
+    font-family:"Poppins", sans-serif;
+    font-weight: mixed;
+    font-size: 64px;
+    line-height: auto;
+    color:#00ADB5;
+    }
+
+    .projectPageBtn{
+        display: flex;
+        gap: 16px;
+         margin-top: 48px;
+    }
+
+    .projectPageBtn button {
+        background:none;
+        border: none;   
+    }
+
+    .projectPageBtn button a{
+        background: rgba(0, 0, 0, 0.273);
+        padding:10px 32px;
+        font-family:poppins,sans-serif;
+        font-weight:700;
+        font-size: 18px;
+        border-radius: 24px;
+        color: #EEEEEE;
+        transition: all linear 0.3s;
+    }
+
+    .projectPageBtn button a:hover{
+        background:#00ADB5;
+        transition: 0.3s;
+    }
+
+    .projectCardPart {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:368px;
+        height: 280px; 
+        border-radius: 16px; 
+        gap: 48px;
+        margin-top: 48px; 
+      
+    }
+    
+    .cardOne{
+        padding: 61px 52px;
+        background: lch(0% 0 0 / 0.188);
+        border-radius: 16px;
+    }
+
+    .cardTwo{
+        padding: 61px 0px;
+        background: lch(0% 0 0 / 0.188);
+        border-radius: 16px;
+         width:368px;
+        height:280px; 
+    }
+
+    .cardThree{
+        padding:61px 0px;
+        background: lch(0% 0 0 / 0.188);
+        border-radius: 16px;
+        width:368px;
+        height: 280px; 
+    } 
+
+   /* //project page css end here// */
