@@ -205,7 +205,6 @@ gap: 48px;
         color:#EEEEEE;
         }
 
-
         .aboutMeContent h2 span {
         font-family:"Poppins", sans-serif;
         font-weight: mixed;
@@ -287,135 +286,199 @@ gap: 48px;
         width:368px;
         height: 280px; 
         border-radius: 16px; 
-        gap: 150px;
+        gap: 120px;
         margin-top: 48px; 
         transition: all linear 0.3s;
         }
     
-       .projectCardPart .cardOne:hover {
-        background: hsla(184, 27%, 53%, 0.501);
-        transition: 0.3s;
-        }
+            .projectCardPart .cardOne:hover {
+            background: hsla(185, 82%, 28%, 0.501);
+            transition: 0.3s;
+            }
 
-       .projectCardPart .cardTwo:hover {
-        background: hsla(184, 27%, 53%, 0.501);
-        transition: 0.3s;
-        }
+            .projectCardPart .cardTwo:hover {
+            background: hsla(184, 27%, 53%, 0.501);
+            transition: 0.3s;
+            }
 
-        .projectCardPart .cardThree:hover {
-        background: hsla(184, 27%, 53%, 0.501);
-        transition: 0.3s;
-        }
+            .projectCardPart .cardThree:hover {
+            background: hsla(184, 27%, 53%, 0.501);
+            transition: 0.3s;
+            }
     
-        .cardOne{
-        padding: 61px 52px;
-        background: lch(0% 0 0 / 0.188);
-        border-radius: 16px;  
-        width:368px;
-        height:280px
-        }
+            .cardOne{
+            padding: 61px 52px;
+            background: lch(0% 0 0 / 0.188);
+            border-radius: 16px;  
+            width:368px;
+            height:280px
+            }
 
-        .cardTwo{
-        padding: 61px 0px;
-        background: lch(0% 0 0 / 0.188);
-        border-radius: 16px;
-        width:368px;
-        height:280px; 
-         }
+            .cardTwo{
+            padding: 61px 0px;
+            background: lch(0% 0 0 / 0.188);
+            border-radius: 16px;
+            width:368px;
+            height:280px; 
+            }
 
-        .cardThree{
-        padding:61px 0px;
-        background: lch(0% 0 0 / 0.188);
-        border-radius: 16px;
-        width:368px;
-        height: 280px;   
-    } 
-   /* //project page css end here// */
-  /* <!-- //got project start here// --> */
-        #gotProject{
-        padding: 258px 0px;
-        background: #222831;
-        }
-        .gotProjectFlex{
-        display: flex;
-        gap: 150px;
-        }
+            .cardThree{
+            padding:61px 0px;
+            background: lch(0% 0 0 / 0.188);
+            border-radius: 16px;
+            width:368px;
+            height: 280px;   
+            } 
+            /* //project page css end here// */
+            /* <!-- //got project start here// --> */
+            #gotProject{
+            padding: 258px 0px;
+            background: #222831;
+            }
+            .gotProjectFlex{
+            display: flex;
+            gap: 150px;
+            }
 
-        .gotprojectImg{
+            .gotprojectImg{
             position:relative;
-        }
-        .imgOne img {
+            }
+            .imgOne img {
             position: absolute;
             top: -200px;
             left: 820px;
-        }
+            }
 
-        .imgTwo img {
+            .imgTwo img {
             position: absolute;
             top: 248px;
             left: 160px;
-        }
+            }
 
-         .imgThree img {
+            .imgThree img {
             position: absolute;
             top: 590px;
             left: 1194px;
-        }
+            }
 
+            .gotProjectFlex h2{
+            width: 498px;
+            font-family:"Poppins", sans-serif;
+            font-weight: 700;
+            font-size: 64px;
+            line-height:80px;
+            color:#EEEEEE;
+            }
 
-        .gotProjectFlex h2{
-        width: 498px;
-        font-family:"Poppins", sans-serif;
-        font-weight: 700;
-        font-size: 64px;
-        line-height:80px;
-        color:#EEEEEE;
-        }
+            .gotProjectFlex h2 span{
+            color:#00ADB5;
+            }
 
-        .gotProjectFlex h2 span{
-        color:#00ADB5;
-        }
+            .gotProjectLeft img{
+            margin-left:206px;
+            }
+            /* //contactForm -name and email - row part start here// */
+            .gotProjectRight {
+            width: 600px;
+            height: 508px;
+            }
+            .contactForm {
+            width: 100%;
+            }
+            .input_row {
+            display: flex;
+            gap: 24px;
+            margin-bottom: 24px; 
+            }
+            .input_group {
+            display: flex;
+            flex-direction: column;
+            }
+            .input_group label {
+            font-family: poppins;
+            font-weight: 700;
+            font-size: 18px;
+            color: #EEEEEE;
+            margin-bottom: 10px;
+            }
+            /* // contactForm name and email start here// */
+            /* // contactForm name and email end here// */
+             .input_group input {
+            width: 100%;
+            padding: 16px 150px 16px 24px;
+            font-weight: 700;
+            font-size: 18px;
+            font-family: poppins;
+            border: 1px solid transparent;
+            border-radius: 16px;
+            background: #393E46;
+            color: #EEEEEE;
+            outline: none;
+            box-sizing: border-box;
+            transition: all linear 0.3s;
+            }
+            /* // contactForm name and email input end here // */
+      
+            /* //contactForm - placeholder start here// */
+            .input_group input::placeholder,
+            .input_group textarea::placeholder {
+            background: #393E46;
+            font-family: poppins;
+            font-weight: 700px;
+            line-height: auto;
+            }
+            /* //contactForm - placeholder end here// */
+            /* //contact- messege field start here // */
+            
+            .messege_group {
+                margin-bottom: 24px;
+            }
+            .input_group textarea {
+            width: 100%;
+            padding: 15px 360px 15px 15px;
+            font-family: poppins;
+            font-weight: 700;
+            font-size: 18px;
+            background:#393E46;
+            color: #EEEEEE;
+            outline: none;
+            border-radius: 16px;
+            border: 1px solid transparent;
+            box-sizing: border-box;
+            transition: all linear 0.3s;
+            }
+            /* //contact- messege field end here // */
 
-        .gotProjectLeft img{
-        margin-left:206px;
-        }
+            .gotProjectRight button{
+            padding: 10px 32px;
+            border-radius: 24px;
+            background: #00ADB5;
+            color: #EEEEEE;
+            width: 232px;
+            height: 47px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 24px;
+            border: none;
+            transition: all linear 0.03s;
+            }
 
-        .gotProjectRight label{
-        color: #EEEEEE;  
-        }
+            .gotProjectRight button:hover {
+            background: #031a26;
+            }
 
-        .gotProjectRight button{
-        padding: 10px 32px;
-        border-radius: 24px;
-        background: #00ADB5;
-        color: #EEEEEE;
-        width: 232px;
-        height: 47px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        margin-top: 24px;
-        border: none;
-        transition: all linear 0.03s;
+        /* <!-- //got project end here// --> */
 
-        }
-
-        .gotProjectRight button:hover {
-        background: #031a26;
-
-        }
-
-  /* <!-- //got project end here// --> */
-
-  /* //footer part start here// */
-        #footerPart{
+        /* //footer part start here// */
+            #footerPart{
             background:#222831;
             padding: 100px 482px;
             border: 1px solid rgba(255, 255, 255, 0.137); 
-        }
+            }
 
-        .footerLeft ul li {
+            .footerLeft ul li {
             display: flex;
             gap: 48px;
             width: 475px;
@@ -423,39 +486,52 @@ gap: 48px;
             margin-left: 483px;
         }
 
-        .footerLeft ul li a {
-        font-family:"Poppins", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        color:#EEEEEE;
-        }
+            .footerLeft ul li a {
+            font-family:"Poppins", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            color:#EEEEEE;
+            }
 
-        .icons ul li {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 24px; 
-        width: 264px;
-        margin-left: 588px;
-        
+            .icons ul li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 24px; 
+            width: 264px;
+            margin-left: 588px;
+    
+            }
 
-        }
+            .icons ul li a {
+            margin-top: 38px;
+            }
 
-        .icons ul li a {
-        margin-top: 38px;
-        }
-
-        .icons ul li a:hover{
+            .icons ul li a:hover{
             background: #222831;
-        }
+            }
 
-        .footerRight{
-        width: 289px;
-        font-family:"Poppins", sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-        color:#eeeeee6f;
-        margin-top: 277px;
-        margin-left: 1055px;
+            .footerRight{
+            width: 289px;
+            font-family:"Poppins", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            color:#eeeeee6f;
+            margin-top: 277px;
+            margin-left: 1055px;
+            }
+        
+            .labelPart label input {
+            display: flex;
+            flex-direction: column;
+            }
+
+            .contactForm label input {
+            display: flex;
+            columns: #EEEEEE;
+            font-weight:700;
+            font-size: 18px;
+            margin-bottom: 10px;
         }
-  /* //footer part end here// */
+    
+         /* //footer part end here// */
